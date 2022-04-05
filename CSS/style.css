@@ -1,0 +1,126 @@
+* {
+
+
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("E:/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+
+    display: flex;
+    min-height: 100vh;
+
+
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: 200;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 10px;
+}
+
+h2 span {
+    font-size: 1.2em;
+    color: black;
+    font-weight: 600;
+    color: hsl(0, 6%, 24%);
+}
+
+p {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+    text-align: justify;
+}
+
+p.para {
+    opacity: 1;
+}
+
+.main {
+    width: 50%;
+    padding: 140px 40px;
+
+}
+
+.image {
+    width: 50%;
+    background-size: cover;
+    background-image: url(E:/base-apparel-coming-soon-master/images/hero-desktop.jpg);
+
+}
+
+.logo {
+    margin: 60px 0;
+    width: 200px;
+    padding-left: 135px;
+}
+
+
+form {
+    position: relative;
+}
+
+input {
+
+    background-color: transparent;
+    border: 1px solid hsl(0, 36%, 70%);
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    
+
+}
+
+button {
+
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    width: 100px;
+    height: 55px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 1px 1px 15px 5px hsl(0, 36%, 70%);
+}
+
+button:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.error-icon {
+    position: absolute;
+    top: 12px;
+    right:115px;
+}
+
+small {
+    color: hsl(0, 36%, 70%);
+    margin: 30px;
+}
+
+::placeholder
+{
+    color: hsl(0, 36%, 70%);
+}
